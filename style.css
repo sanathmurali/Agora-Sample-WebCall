@@ -1,0 +1,45 @@
+body {
+    animation: bgColor 5s ease infinite alternate;
+}
+
+@keyframes bgColor {
+    0% {
+        background: #7579e7;
+    }
+
+    50% {
+        background: #9ab3f5;
+    }
+
+    100% {
+        background: #a3d8f4;
+    }
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10vh;
+    background: transparent;
+}
+
+.gitHubLink svg {
+    height: 44px;
+    width: 44px;
+    margin: 0 auto;
+    transition: all 0.3s linear;
+}
+
+.gitHubLink svg:hover {
+    color: #e742cc;
+
+}
+
+#disable_camera,
+#disconnect_call,
+#mute_mic {
+    outline: none;
+}
