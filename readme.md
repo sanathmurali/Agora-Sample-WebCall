@@ -8,13 +8,15 @@ This repository contain sample project using the AgoraRTCSDK-3.1.0.js
 
 - Clone the repository
 - Inside `./vendor/main.js` add the appId which you have created. 
+
 <br>
-```
-client.init("appId", function(){
+
+`client.init("appId", function(){
     console.log("Initialized successfully!");
 });
+`
 
-```
+
 If trouble getting appID ? 
 read this [blog](https://sanathmurali99.medium.com/quick-start-tutorial-1-to-1-video-chat-for-web-agora-io-85c8d3400f0f) to figure it out!
 
